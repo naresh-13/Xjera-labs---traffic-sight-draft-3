@@ -1,6 +1,6 @@
 /* ------------------setup--------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Poppins:wght@500&family=Raleway:wght@500;600&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -29,18 +29,14 @@ nav {
   width: 100%;
   z-index: 1111111;
   box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
-    5px 5px 5px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2);
+    2px 2px 2px rgba(0, 0, 0, 0.1), 7px 7px 7px rgba(0, 0, 0, 0.1);
   background-attachment: fixed;
-  background-image: linear-gradient(
-    to top right,
-    rgba(238, 238, 238),
-    rgba(255, 255, 255)
-  );
-  backdrop-filter: blur(5px);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.274);
+  background: #fff;
+  /* backdrop-filter: blur(5px); */
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.274);
   border-right: 2px solid rgba(0, 0, 0, 0.274);
   border-top: 2px solid rgba(255, 255, 255, 0.5);
-  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5); */
 }
 .nav-header {
   display: flex;
@@ -65,8 +61,8 @@ nav {
 }
 .links a {
   color: #242c6c;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   display: block;
@@ -177,12 +173,12 @@ h2 {
   width: 90%;
   height: cover;
   margin-bottom: 5rem;
-  padding: 8rem;
+  padding: 5rem;
   /* background: rgba(255, 255, 255, 0.7); */
   background-image: linear-gradient(
-    to top right,
-    rgba(238, 238, 238, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgba(238, 238, 238),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -248,14 +244,14 @@ h2 {
   /* flex-wrap: wrap; */
   width: 90%;
   height: cover;
-  padding: 8rem;
+  padding: 5rem;
   margin-bottom: 5rem;
   /* padding: 5rem; */
   /* background: rgba(255, 255, 255, 0.7); */
   background-image: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -277,7 +273,7 @@ h2 {
   margin-bottom: 1rem;
 }
 #traffic-sight-content span {
-  color: #00000077;
+  color: #cfab33;
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 0.7rem;
@@ -299,7 +295,7 @@ h2 {
   height: 10rem;
 }
 .traffic-sight-images span {
-  color: #00000077;
+  color: #cfab33;
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 0.7rem;
@@ -325,14 +321,14 @@ h2 {
   /* flex-wrap: wrap; */
   width: 90%;
   height: cover;
-  padding: 8rem;
+  padding: 5rem;
   margin-bottom: 5rem;
   /* padding: 5rem; */
   /* background: rgba(255, 255, 255, 0.7); */
   background-image: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -366,6 +362,7 @@ h2 {
 .txtnimg p {
   font-family: "poppins", sans-serif;
   width: 10rem;
+  color: #cfab33;
 }
 
 #services {
@@ -388,14 +385,14 @@ h2 {
   /* flex-wrap: wrap; */
   width: 90%;
   height: cover;
-  padding: 8rem;
+  padding: 5rem;
   margin-bottom: 5rem;
   /* padding: 5rem; */
   /* background: rgba(255, 255, 255, 0.7); */
   background-image: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -599,13 +596,13 @@ h2 {
   /* flex-wrap: wrap; */
   width: 90%;
   height: cover;
-  padding: 8rem;
+  padding: 5rem;
   /* padding: 5rem; */
   /* background: rgba(255, 255, 255, 0.7); */
   background-image: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgba(255, 255, 255),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -651,9 +648,9 @@ h2 {
   justify-content: center;
   /* background: rgba(255, 255, 255, 0.534); */
   background-image: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7)
+    to bottom right,
+    rgba(255, 255, 255),
+    rgba(255, 255, 255)
   );
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
@@ -669,6 +666,25 @@ h2 {
   font-size: 2rem;
   align-items: center;
 }
+
+.quote-btn {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  border-radius: 25px;
+  border: 2px solid #cfab33;
+  color: #cfab33;
+  font-size: 1rem;
+  font-family: "poppins";
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  transition: 0.4s;
+}
+.quote-btn:hover {
+  color: #cfab33;
+  background: #242c6c;
+  border: 2px solid #cfab33;
+}
+
 .fa {
   display: flex;
   flex-direction: row;
@@ -681,7 +697,7 @@ h2 {
   text-decoration: none;
   align-items: center;
   margin: 2rem 0.5rem;
-  color: rgb(255, 255, 255);
+  color: #cfab33;
 }
 
 .fa:hover {
