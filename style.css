@@ -163,7 +163,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6) url(./Images/Picture1.3.jpg);
+  background: rgba(0, 0, 0, 0.5) url(./Images/Picture1.3.jpg);
   box-shadow: 0px 50px 40px -50px #111;
   background-blend-mode: darken;
   background-size: cover;
