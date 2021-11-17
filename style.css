@@ -180,12 +180,12 @@ h2 {
   margin-top: 5rem;
   margin-bottom: 5rem;
   padding: 3rem;
-  /* background: rgba(255, 255, 255, 0.7); */
-  background-image: linear-gradient(
+  background: rgba(255, 255, 255); 
+  /*background-image: linear-gradient(
     to bottom right,
     rgba(255, 255, 255),
     rgba(255, 255, 255)
-  );
+  );*/
   backdrop-filter: blur(5px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
   border-right: 2px solid rgba(0, 0, 0, 0.274);
