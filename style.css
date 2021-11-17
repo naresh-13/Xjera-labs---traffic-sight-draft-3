@@ -186,7 +186,7 @@ h2 {
     rgba(255, 255, 255),
     rgba(255, 255, 255)
   );
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
   border-bottom: 2px solid rgba(0, 0, 0, 0.274);
   border-right: 2px solid rgba(0, 0, 0, 0.274);
   border-top: 2px solid rgba(255, 255, 255, 0.5);
